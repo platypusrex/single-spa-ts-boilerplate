@@ -1,0 +1,32 @@
+{
+  "name": "single-spa-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "single-spa": "^4.3.5",
+    "single-spa-react": "^2.10.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@types/single-spa-react": "^2.8.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js -p",
+    "start": "npx rimraf ./dist && yarn build && node server.js"
+  }
+}
