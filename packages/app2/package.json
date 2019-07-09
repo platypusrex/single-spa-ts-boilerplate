@@ -1,0 +1,17 @@
+{
+  "name": "@mf/app2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@types/single-spa-react": "^2.8.3",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "single-spa-react": "^2.10.2"
+  }
+}
