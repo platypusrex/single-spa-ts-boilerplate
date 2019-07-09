@@ -7,6 +7,7 @@
     "single-spa": "^4.3.5"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
     "source-map-loader": "^0.2.4",
     "ts-loader": "^6.0.4",

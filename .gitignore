@@ -8,7 +8,7 @@
 /coverage
 
 # production
-/dist
+/packages/root/dist
 
 # misc
 .DS_Store
